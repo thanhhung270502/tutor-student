@@ -4,7 +4,7 @@ export class UserCredentialsDto {
   @IsString()
   @MinLength(4)
   @MaxLength(30)
-  username: string;
+  userName: string;
   
   @IsString()
   @MinLength(6)
